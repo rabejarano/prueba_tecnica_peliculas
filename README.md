@@ -4,9 +4,9 @@
 
 ## Objetivo
 
-El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en chedoc. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y su capacidad para resolver problemas.
+El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en UAO-Tech. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y su capacidad para resolver problemas.
 
-Pondremos el foco en obtener un **código simple, bien diseñado y organizado, eficaz y testeado**, así como el cumplimiento de todos los requerimientos solicitados.
+Pondremos el foco en obtener un **código simple, bien diseñado, organizado y eficaz**, así como el cumplimiento de todos los requerimientos solicitados.
 
 
 ## Desarrollo del proyecto
@@ -36,8 +36,6 @@ Necesitará construir las siguientes 3 páginas con React:
 
 Cree componentes para cada parte de la página (por ejemplo, encabezado, contenido, pie de página, etc.). Dentro de la carpeta `/assets` podrá encontrar distintas imágenes para utilizar.
 
-Las páginas también deben poder utilizarse en dispositivos móviles.
-
 Puede suponer que no tiene que admitir navegadores heredados sin funciones como `fetch` o `flexbox`.
 
 ### Página de “Inicio”
@@ -48,12 +46,14 @@ Esta será su pantalla index.html.
 
 Deberá mostrar 2 bloques que conectarán con las páginas de "Series" y "Películas".
 
-
 ### Páginas de “Serie” y “Películas”
 
 > Ejemplo de referencia [screens/2-series.jpg](src/screens/2-series.jpg) y [screens/3-movies.jpg](src/screens/3-movies.jpg).
 
-Para cada página debería leer los datos desde el archivo JSON [feed/sample.json](https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json), luego:
+Para cada página debería leer los datos desde el archivo JSON [API]
+(https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json), 
+
+luego:
 
 - Mostrar los primeros 20 resultados (`entries`).
 - Mostrar sólo si contienen el atributo `releaseYear` >= `2010`
