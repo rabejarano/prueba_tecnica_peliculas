@@ -102,6 +102,17 @@ Importante saber:
 - Se pueden utilizar otras librerías que crea conveniente, aunque se recomienda proporcionar una solución básica ajustada a lo solicitado, ya que nuestro objetivo principal es evaluar sus habilidades con React y Javascript.
 - Como empresa, creemos que la comunicación es la clave del éxito. Entonces, si algo no está claro, o si tiene dudas sobre la tarea, consultanos!
 
+## Tip - Uso Fetch
+
+```
+async function getMoviesAndSeries() {
+  let url = 'https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json';
+  const response = await fetch(url);
+  const moviesAndSeries = await response.json();
+  console.log(moviesAndSeries);
+}
+```
+
 
 > Happy coding!
 
